@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 @objc(NCSInstance) public class NCSInstance: NSObject {
     public static let sharedInstance : NCSInstance = NCSInstance()
