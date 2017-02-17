@@ -12,7 +12,7 @@
     "ios": "8.0"
   },
   "source": {
-    "path": "./NrgClientSdk/NrgClientSdk"
+    "path": "NrgClientSdk/NrgClientSdk"
   },
   "source_files": "Source/Classes/**/*",
   "resources" : "Source/Assets/*",
