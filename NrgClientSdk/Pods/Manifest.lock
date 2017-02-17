@@ -1,0 +1,43 @@
+PODS:
+  - Cordova (4.3.0)
+  - cordova-plugin-code-push (1.0.0):
+    - cordova-plugin-device (>= 1.1.0)
+    - cordova-plugin-dialogs (>= 1.1.1)
+    - cordova-plugin-file (>= 4.3.0)
+    - cordova-plugin-file-transfer (>= 1.3.0)
+    - cordova-plugin-zip (>= 3.0.0)
+  - cordova-plugin-device (1.1.3):
+    - Cordova (>= 4.3.0)
+  - cordova-plugin-dialogs (1.2.0):
+    - Cordova (>= 4.0.0)
+  - cordova-plugin-file (4.3.0):
+    - Cordova (>= 4.3.0)
+  - cordova-plugin-file-transfer (1.6.0):
+    - Cordova (>= 4.3.0)
+    - cordova-plugin-file
+  - cordova-plugin-nrg (0.0.1):
+    - Cordova (>= 4.3.0)
+  - cordova-plugin-zip (3.1.0):
+    - cordova-plugin-file (>= 2.0.0)
+
+DEPENDENCIES:
+  - cordova-plugin-code-push
+  - cordova-plugin-nrg (from `../cordova-plugin-nrg`)
+
+EXTERNAL SOURCES:
+  cordova-plugin-nrg:
+    :path: ../cordova-plugin-nrg
+
+SPEC CHECKSUMS:
+  Cordova: 9dda9e4a521d8f0af561cba93e59f142ed7b306f
+  cordova-plugin-code-push: 2ae555adb80131edda3e1f11cb94300c75063c3e
+  cordova-plugin-device: a8d085e5d9d10712c537e3ef3c8c3e49a35c6a90
+  cordova-plugin-dialogs: 0cb051ffb3ea725702098992c7358d13946328da
+  cordova-plugin-file: 4458961f1158dbbc2502f70e8945ea252aa9ed2b
+  cordova-plugin-file-transfer: fd65c80d5b29ad73bf0b2a50761455a6f9049141
+  cordova-plugin-nrg: 03771f7287b591a70da10c8d1b8580c23cef3058
+  cordova-plugin-zip: 491695be97b091bd92a0d8c4642f4f2d5c35cefc
+
+PODFILE CHECKSUM: 34d66f15d1c3af9d03abc9b4b1531fdbbf0ce5e8
+
+COCOAPODS: 1.2.0

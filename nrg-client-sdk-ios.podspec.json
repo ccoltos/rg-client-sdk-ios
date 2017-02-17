@@ -1,0 +1,23 @@
+{
+  "name": "nrg-client-sdk-ios",
+  "version": "1.0.0",
+  "summary": "NRG Client SDK iOS Plugin",
+  "description": "This plugin allows you to integrate multiplayer gaming into your games.",
+  "homepage": "www.rgluk.com",
+  "license": "MIT",
+  "authors": {
+    "Reality Gaming Ltd": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "./NrgClientSdk/NrgClientSdk"
+  },
+  "source_files": "Source/Classes/**/*",
+  "resources" : "Source/Assets/*",
+  "requires_arc": true,
+  "dependencies": {
+    "cordova-plugin-code-push": [">= 1.0.0"]
+  }
+}

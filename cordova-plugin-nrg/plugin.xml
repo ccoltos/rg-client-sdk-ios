@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-nrg" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>NRG</name>
+  <js-module name="NRG" src="www/NRG.js">
+    <clobbers target="NRG"/>
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="NRG">
+        <param name="ios-package" value="NRGPlugin"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/NRGPlugin.swift"/>
+  </platform>
+</plugin>

@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Cordova" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-code-push" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-device" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-dialogs" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-file" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-file-transfer" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-nrg" "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-zip"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Cordova/Cordova.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-code-push/cordova_plugin_code_push.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-device/cordova_plugin_device.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-dialogs/cordova_plugin_dialogs.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-file-transfer/cordova_plugin_file_transfer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-file/cordova_plugin_file.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-nrg/cordova_plugin_nrg.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/cordova-plugin-zip/cordova_plugin_zip.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Cordova" -framework "cordova_plugin_code_push" -framework "cordova_plugin_device" -framework "cordova_plugin_dialogs" -framework "cordova_plugin_file" -framework "cordova_plugin_file_transfer" -framework "cordova_plugin_nrg" -framework "cordova_plugin_zip"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

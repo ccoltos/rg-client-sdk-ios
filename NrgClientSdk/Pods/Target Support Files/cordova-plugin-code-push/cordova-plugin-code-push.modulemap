@@ -1,0 +1,6 @@
+framework module cordova_plugin_code_push {
+  umbrella header "cordova-plugin-code-push-umbrella.h"
+
+  export *
+  module * { export * }
+}
