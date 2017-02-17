@@ -22,11 +22,16 @@ PODS:
 
 DEPENDENCIES:
   - cordova-plugin-code-push
-  - cordova-plugin-nrg (from `../cordova-plugin-nrg`)
+  - cordova-plugin-nrg (from `https://github.com/ccoltos/cordova-plugin-nrg.git`)
 
 EXTERNAL SOURCES:
   cordova-plugin-nrg:
-    :path: ../cordova-plugin-nrg
+    :git: https://github.com/ccoltos/cordova-plugin-nrg.git
+
+CHECKOUT OPTIONS:
+  cordova-plugin-nrg:
+    :commit: 72c773b1364535bce161d7ba588fee0a9df0406e
+    :git: https://github.com/ccoltos/cordova-plugin-nrg.git
 
 SPEC CHECKSUMS:
   Cordova: 9dda9e4a521d8f0af561cba93e59f142ed7b306f
@@ -38,6 +43,6 @@ SPEC CHECKSUMS:
   cordova-plugin-nrg: 03771f7287b591a70da10c8d1b8580c23cef3058
   cordova-plugin-zip: 491695be97b091bd92a0d8c4642f4f2d5c35cefc
 
-PODFILE CHECKSUM: 34d66f15d1c3af9d03abc9b4b1531fdbbf0ce5e8
+PODFILE CHECKSUM: 16216b6e110e96d0a39caa5ca248d406e9625495
 
 COCOAPODS: 1.2.0

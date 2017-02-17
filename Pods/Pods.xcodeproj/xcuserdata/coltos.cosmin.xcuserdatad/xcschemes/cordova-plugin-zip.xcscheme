@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "517D3D677EB26D3CB83E72676724BAF5"
-               BuildableName = "cordova_plugin_device.framework"
-               BlueprintName = "cordova-plugin-device"
+               BlueprintIdentifier = "2331CA39A825B806A186D4A1535CEA22"
+               BuildableName = "cordova_plugin_zip.framework"
+               BlueprintName = "cordova-plugin-zip"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "517D3D677EB26D3CB83E72676724BAF5"
-            BuildableName = "cordova_plugin_device.framework"
-            BlueprintName = "cordova-plugin-device"
+            BlueprintIdentifier = "2331CA39A825B806A186D4A1535CEA22"
+            BuildableName = "cordova_plugin_zip.framework"
+            BlueprintName = "cordova-plugin-zip"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "517D3D677EB26D3CB83E72676724BAF5"
-            BuildableName = "cordova_plugin_device.framework"
-            BlueprintName = "cordova-plugin-device"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

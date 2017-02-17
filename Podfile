@@ -10,6 +10,6 @@ target 'NrgClientSdk' do
 
   # Pods for NrgClientSdk
   pod 'cordova-plugin-code-push'
-  pod 'cordova-plugin-nrg', :path => '../cordova-plugin-nrg'
+  pod 'cordova-plugin-nrg', :git => 'https://github.com/ccoltos/cordova-plugin-nrg.git'
 
 end
